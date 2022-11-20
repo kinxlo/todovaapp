@@ -1,0 +1,50 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "globals": {
+        "process": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "important-stuff",
+        "plugin:css-modules/recommended",
+        "prettier"
+        // "plugin:cypress/recommended",
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "css-modules"
+    ],
+    "rules": {
+        "react/jsx-props-no-spreading": 0,
+        "react/prop-types": 0,
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "react/react-in-jsx-scope": [
+            0,
+            "off"
+        ]
+    },
+    "settings": {
+        "react": {
+            "version": "detect" // React version. "detect" automatically picks the version you have installed.
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@zuri/zuri-todo-virtual-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "clean": "yarn clean:build",
+    "lint": "concurrently \"cd ./backend && yarn run lint --fix\" \"cd ./frontend && yarn run lint\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "husky": "^8.0.2"
+  }
+}
