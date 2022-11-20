@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={style.hero__bg_img}></div>
       <section className={style.container}>
         <img
-          className={style.hero__icon1}
+          className={`${style.hero__icon1}`}
           src="https://res.cloudinary.com/kingsleysolomon/image/upload/v1668644172/hng/todoAppVirtualAssistant/Vector-1_b7dn1l.svg"
           alt="icon"
         />
@@ -41,9 +41,7 @@ const Hero = () => {
             <button className={`${style.button_getstarted} hover`}>
               get Started
             </button>
-            <button className={`${style.button_login} hover`}>
-              login
-            </button>
+            <button className={`${style.button_login} hover`}>login</button>
           </div>
         </article>
         <article className={style.hero__img}>

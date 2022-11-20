@@ -18,7 +18,7 @@ const Header = () => {
   const btnStyleOutline = {
     border: "1px solid #714dd9",
     background: "transparent",
-    color: "#714dd9",
+    color: "#714dd9"
   };
 
   return (

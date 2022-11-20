@@ -14,6 +14,7 @@ import ChatBox from "./core/chatbox/ChatBox";
 import NewTask from "./core/todo/NewTask";
 
 function App() {
+
   return (
     <ErrorBoundary>
       <Suspense fallback={<GeneralLoading text={`LOADING...`} />}>

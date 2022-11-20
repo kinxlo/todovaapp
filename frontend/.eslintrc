@@ -3,17 +3,12 @@
         "browser": true,
         "es2021": true
     },
-    "globals": {
-        "process": true
-    },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "important-stuff",
-        "plugin:css-modules/recommended",
         "prettier"
-        // "plugin:cypress/recommended",
     ],
+    "overrides": [],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -23,23 +18,32 @@
     },
     "plugins": [
         "react",
-        "css-modules"
+        "eslint-plugin-css-modules"
     ],
     "rules": {
-        "react/jsx-props-no-spreading": 0,
-        "react/prop-types": 0,
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
-            }
-        ],
         "react/react-in-jsx-scope": [
             0,
             "off"
+        ],
+        "react/display-name": [
+            "off"
+        ],
+        "react/prop-types": [
+            0,
+            "off"
+        ],
+        "react/no-unescaped-entities": [
+            "off"
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "warn",
+                    "error",
+                    "log"
+                ]
+            }
         ]
     },
     "settings": {
