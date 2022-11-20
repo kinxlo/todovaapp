@@ -1,7 +1,7 @@
 
-import Form from "../../Components/NewTask/Form";
-import Header from "../../Components/NewTask/Header";
-import Sidebar from "../../Components/NewTask/Sidebar";
+import Form from "../../components/NewTask/Form";
+import Header from "../../components/NewTask/Header";
+import Sidebar from "../../components/NewTask/Sidebar";
 import "./NewTask.scss"
 
 function NewTask() {
@@ -13,7 +13,7 @@ function NewTask() {
         <Form />
       </main>
     </div>
-     
+
   );
 }
 

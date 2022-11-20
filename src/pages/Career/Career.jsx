@@ -1,5 +1,5 @@
 import React from "react";
-import { CareerHero, CareerMiddle, JobOpening } from "../../Components/career";
+import { CareerHero, CareerMiddle, JobOpening } from "../../components/career";
 import Footer from "../../layout/footer/Footer";
 import Header from "../../layout/header/Header";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Privacypolicy from "../../Components/privacy-policy/Privatepolicy";
+import Privacypolicy from "../../components/privacy-policy/Privatepolicy";
 import Footer from "../../layout/footer/Footer";
 import Header from "../../layout/header/Header";
 

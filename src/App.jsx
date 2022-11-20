@@ -1,15 +1,15 @@
 import { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import ErrorBoundary from "./layout/error-boundary/ErrorBoundary";
-import AccountPreferences from "./Components/accountPreferences/AccountPreferences";
-import PreferenceSettingEdit from "./Components/PreferenceSetting/Preference";
+import AccountPreferences from "./components/accountPreferences/AccountPreferences";
+import PreferenceSettingEdit from "./components/PreferenceSetting/Preference";
 import Signup from "./core/auth/signup/Signup";
 import GeneralLoading from "./layout/general-loading/GeneralLoading";
 
 import FAQ from "./pages/FAQ/FAQ";
 import { About, Career, Contact, LandingPage, PrivatePolicy } from "./pages";
-import Dasboard from "./Components/dasboard/Dasboard";
-import Home from "./Components/userDasboardComponents/home/Home";
+import Dasboard from "./components/dasboard/Dasboard";
+import Home from "./components/userDasboardComponents/home/Home";
 import ChatBox from "./core/chatbox/ChatBox";
 import NewTask from "./core/todo/NewTask";
 
